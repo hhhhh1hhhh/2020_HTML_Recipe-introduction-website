@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Single Dining</title>
+    <style>
+
+      @import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+
+      .ng-font {
+        font-family: 'Yeon Sung', cursive;
+      }
+
+    body {
+      background-image: url('bg1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .jb-xx-small { font-size: xx-small; }
+    .jb-x-small { font-size: x-small; }
+    .jb-small { font-size: small; }
+    .jb-medium { font-size: medium; }
+    .jb-large { font-size: large; }
+    .jb-x-large { font-size: x-large; }
+    .jb-xx-large { font-size: xx-large; }
+
+    #topMenu {
+      height: 100px;
+      position: relative;
+    }
+    #topMenu ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      font-weight: bold;
+    }
+    #topMenu ul li {
+      color: Black;
+      float: left;
+      line-height: 30px;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    ul{
+      width: 100px;
+    }
+
+    .menuLink, .submenuLink {
+      text-decoration:none;
+      display: block;
+      width: 200px;
+      height: 60px;
+    }
+    .menuLink {
+      color: Black;
+    }
+    .topMenuLi:hover .menuLink {
+      color: #22741C;
+
+    }
+    .submenuLink {
+      color: Black;
+      background-color: white;
+      margin-right: -1px;
+    }
+    .longLink {
+      width: 190px;
+    }
+    .submenu {
+      position: absolute;
+      height: 0px;
+      overflow: hidden;
+      transition: height .2s;
+      -webkit-transition: height .2s;
+      -moz-transition: height .2s;
+      -o-transition: height .2s;
+      width: 597px;
+      left: 0;
+    }
+    .submenu li{
+      display: inline-block;
+    }
+    .topMenuLi:hover .submenu {
+      height: 32px;
+    }
+    .submenuLink:hover {
+      color: #22741C;
+      background-color: #dddddd;}
+
+      #jb-container {
+        width: 940px;
+        margin: 0px auto;
+        padding: 100px;
+        border: 50px
+      }
+      #jb-header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-content {
+        width: 580px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float:left;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-sidebar{
+        width: 260px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-footer {
+        clear: both;
+        padding: 20px;
+        border: 0px solid #bcbcbc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="jb-container">
+      <div id="jb-header">
+        <a href="single dining.html"><img src="pic2.png" style="margin-left: auto; margin-right: auto; display: block;"/></a>
+      </div>
+      <div id="jb-content">
+      <h1 class="ng-font" id="Instruction">Instruction</h1>
+        <p class="ng-font jb-x-large"> 전체 가구 수 중 1인 가구의 30%! 이제는 혼밥, 혼술의 시대<BR> 1인 가구가 늘어나는 요즘, 집에서 혼 사람들은 혼자 밥을 먹어야 하는 일이 많아졌고, 집에서 해 먹어야 하는 일도 많아졌다. 이런 상황에 따라 우리는 사람들에게 간단하게 요리할 수 있는 레시피와 구매정보를 제공하는 것이 목표이다.</p>
+        <h1 class="ng-font" id="Best Dining">Best dining</h1>
+        <a href="국, 찌개.html"><img src="kimchi1.jpg" width="180" height="160">
+        <img src="spam.jpg" width="180" height="160">
+        <img src="chee.jpg" width="180" height="160">
+        <p class="ng-font jb-x-large"></p>
+      </div>
+      <div id="jb-sidebar">
+        <nav id="topMenu">
+          <h1><BR></h1>
+        <ul>
+        <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink ng-font" href="#Instruction">- Instruction</a></li>
+        <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink" href="#Best Dining">- Best Dining</a></li>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="국, 찌개.html">- 국,찌개</a>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="반찬.html">- 반찬</a></li>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="5분 요리.html">- 5분 요리</a></li>
+            <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink" href="판매 정보.html">- 판매 정보</a></li>
+              <head>
+              </nav>
+            </div>
+            <div id="jb-footer">
+              <p class="ng-font">2020-1 Running Concert</p>
+              <p class="ng-font">Copyright 202010758 정지윤</p>
+              <p class="ng-font">이미지 출처 - google<br>레시피 출처 - 만개의 레시피, youtube 하루 한 끼, yammoo <br> 판매 - 마켓컬리 링크</p>
+            </div>
+          </div>
+        </body>
+        </html>

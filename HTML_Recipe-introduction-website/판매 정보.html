@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Single Dining - 판매정보</title>
+    <style>
+
+      @import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+
+      .ng-font {
+        font-family: 'Yeon Sung', cursive;
+      }
+
+    body {
+      background-image: url('bg1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .jb-xx-small { font-size: xx-small; }
+    .jb-x-small { font-size: x-small; }
+    .jb-small { font-size: small; }
+    .jb-medium { font-size: medium; }
+    .jb-large { font-size: large; }
+    .jb-x-large { font-size: x-large; }
+    .jb-xx-large { font-size: xx-large; }
+
+    #topMenu {
+      height: 100px;
+      position: relative;
+    }
+    #topMenu ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      font-weight: bold;
+    }
+    #topMenu ul li {
+      color: Black;
+      float: left;
+      line-height: 30px;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    ul{
+      width: 100px;
+    }
+
+    .menuLink, .submenuLink {
+      text-decoration:none;
+      display: block;
+      width: 200px;
+      height: 60px;
+    }
+    .menuLink {
+      color: Black;
+    }
+    .topMenuLi:hover .menuLink {
+      color: #22741C;
+
+    }
+    .submenuLink {
+      color: Black;
+      background-color: white;
+      margin-right: -1px;
+    }
+    .longLink {
+      width: 190px;
+    }
+    .submenu {
+      position: absolute;
+      height: 0px;
+      overflow: hidden;
+      transition: height .2s;
+      -webkit-transition: height .2s;
+      -moz-transition: height .2s;
+      -o-transition: height .2s;
+      width: 597px;
+      left: 0;
+    }
+    .submenu li{
+      display: inline-block;
+    }
+    .topMenuLi:hover .submenu {
+      height: 32px;
+    }
+    .submenuLink:hover {
+      color: #22741C;
+      background-color: #dddddd;}
+
+      #jb-container {
+        width: 940px;
+        margin: 0px auto;
+        padding: 100px;
+        border: 50px
+      }
+      #jb-header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-content {
+        width: 580px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float:left;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-sidebar{
+        width: 260px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 0px solid #bcbcbc;
+      }
+      #jb-footer {
+        clear: both;
+        padding: 20px;
+        border: 0px solid #bcbcbc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="jb-container">
+      <div id="jb-header">
+        <a href="single dining.html"><img src="pic2.png" style="margin-left: auto; margin-right: auto; display: block;"/></a>
+      </div>
+      <div id="jb-content">
+      <h1 class="ng-font" id="Introduction">판매 정보</h1>
+        <p class="ng-font jb-x-large"> single dining에서 본 레시피 재료를 바로 구매하세요!</p>
+        <p class="ng-font jb-large"> 이미지를 클릭하면 판매사이트로 바로 이동합니다!</p>
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=49248"><img src="onion.jpg" width="250" height="350">
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=49247"><img src="pa.jpg" width="250" height="350">
+        <h2><br></h2>
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=26448"><img src="po.jpg" width="250" height="350">
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=42158"><img src="ca.jpg" width="250" height="350">
+        <h2><br></h2>
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=25583"><img src="egg.jpg" width="250" height="350">
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=48567"><img src="cham.jpg" width="250" height="350">
+        <h2><br></h2>
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=48572"><img src="kim.jpg" width="250" height="350">
+        <a href="https://www.kurly.com/shop/goods/goods_view.php?&goodsno=51489"><img src="du.jpg" width="250" height="350">
+        <h2><br></h2>
+        <p class="ng-font jb-x-large"></p>
+      </div>
+      <div id="jb-sidebar">
+        <nav id="topMenu">
+          <h1><BR></h1>
+        <ul>
+        <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink ng-font" href="#Introduction">- Instruncion</a></li>
+        <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink" href="#Best Dining">- Best Dining</a></li>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="국, 찌개.html">- 국,찌개</a>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="반찬.html">- 반찬</a></li>
+          <li class="topMenuLi">
+            <a class="menuLink ng-font jb-xx-large" href="5분 요리.html">- 5분 요리</a></li>
+            <li class="topMenuLi ng-font jb-xx-large"><a class="menuLink" href="#판매">- 판매 정보</a></li>
+              <head>
+              </nav>
+            </div>
+            <div id="jb-footer">
+              <p class="ng-font">2020-1 Running Concert</p>
+              <p class="ng-font">Copyright 202010758 정지윤</p>
+              <p class="ng-font">이미지 출처 - google<br>레시피 출처 - 만개의 레시피, youtube 하루 한 끼, yammoo<br> 판매 - 마켓컬리 링크 </p>
+            </div>
+          </div>
+        </body>
+        </html>
